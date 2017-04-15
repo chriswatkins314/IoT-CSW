@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-CSW
+  host: IoT-CSW
+  disk_quota: 1024M
+  services:
+  - IoT-CSW-cloudantNoSQLDB
+  - IoT-CSW-iotf-service
